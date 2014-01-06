@@ -58,7 +58,6 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="btToggle" destination="MxA-4g-tAm" id="h0u-Or-XTy"/>
                         <outlet property="datePicker" destination="iqw-vU-1I5" id="dYo-oi-gvd"/>
                     </connections>
                 </viewController>

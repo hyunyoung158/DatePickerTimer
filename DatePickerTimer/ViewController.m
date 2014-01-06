@@ -12,8 +12,6 @@
     NSTimer *timer;
     BOOL timerWorking;
 }
-@property (weak, nonatomic) IBOutlet UIButton *btToggle;
-
 @property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
 
 @end
@@ -27,8 +25,6 @@
     if (self.datePicker.countDownDuration <= 60) {
         //1->0 으로 표시는?
         NSLog(@"Done!");
-        //정지시 버튼 텍스트 바꿔주기.
-        self.btToggle.titleLabel.text = @"Start";
         [self stopTimer];
     }
 }
